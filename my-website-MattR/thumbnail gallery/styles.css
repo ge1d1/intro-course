@@ -1,0 +1,300 @@
+/*
+
+Title: Stylesheet Template
+
+Author: Maurice van Cooten
+
+*/
+
+body {
+	background: #eee;
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin:0;
+}
+
+a {
+	color:crimson;
+	text-decoration:none;
+}
+
+a:hover {
+	color:red;
+}
+
+/* Layout
+------------------------------------------*/
+
+header,
+.container,
+footer {
+	margin: 0 auto;
+	width:88%;
+	max-width: 960px;
+}
+
+.wrapper {
+	padding:1em 0;
+	background: #fff;
+	
+}
+/*Gallery---------------------------------*/
+
+.gallery{
+	padding:0;
+}
+
+.gallery li{
+	float: left;
+	margin-right: 1em;
+	list-style: none;
+}
+
+.gallery img{
+	border: 6px solid #eeeeee;
+	transition: all 1s ease-in-out;
+}
+
+.gallery img:hover{
+	border: 6px solid #CCFF99;
+}
+
+.gallery a{
+	display:block;
+}
+
+.gallery img{
+	display:block;
+}
+
+.gallery li div.item{
+	position:relative;
+	overflow: hidden;
+}
+
+.gallery li div.item span{
+	position:absolute;
+	bottom: -50px;
+	left:0;
+	text-align: center;
+	width: 100%;
+	padding: .7em 0 1.2em;
+	background: rgba(255,255,255,0.8);
+	transition:1s all ease-in-out;
+}
+
+.gallery li div.item:hover span{
+	bottom:0;
+}
+
+
+/*Transforms---------------------------------*/
+
+.rotate img{
+	transition: all 1s ease-in-out;
+}
+
+.rotate:hover img{
+	-webkit-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+.scale img{
+	transition: all 1s ease-in-out;
+}
+
+.scale:hover img{
+	transform: scale(.8);
+}
+
+.skew img{
+	transition: all 1s ease-in-out;
+}
+
+.skew:hover img{
+	transform: skew(10deg);
+}
+
+/*Filters---------------------------------*/
+
+.grayscale {
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+	filter:gray;
+	transition: all 1s ease-in-out;
+}
+
+.grayscale:hover {
+	-webkit-filter:grayscale(0);
+	filter:grayscale(0);
+	filter:none;
+}
+
+.blur {
+	-webkit-filter: blur(3px);
+	fliter: blur(3px);
+	transition: all 1s ease-in-out;
+}
+
+}
+
+.blur:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+	filter: none;
+}
+
+.sepia {
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+	transition: all 1s ease-in-out;
+}
+
+.sepia:hover {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+	filter: none;
+}
+
+.hue-rotate {
+	-webkit-filter: hue-rotate(15deg);
+	filter: hue-rotate(15deg);
+	transition: all 1s ease-in-out;
+}
+
+.hue-rotate:hover {
+	-webkit-filter: hue-rotate(0);
+	filter: hue-rotate(0);
+	filter: none;
+}
+
+.invert {
+	-webkit-filter: invert(50%)
+	filter: invert(50%);
+	transition: all 1s ease-in-out;
+}
+
+.invert:hover {
+	-webkit-filter: invert(0);
+	filter: invert(0);
+	filter: none;
+}
+
+/* Slideshow
+------------------------------------------*/
+
+.rslides-container {
+    
+	border-radius:8px;
+    position: relative;
+    margin: 0 0 1em 0;
+    border: solid 1px #eee;
+    padding: 0.375em;
+    background: #fff;
+}
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.rslides li {
+        -webkit-backface-visibility: hidden;
+        position: absolute;
+        display: none;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+.rslides img {
+        float: left;
+        width:100%;
+    }
+
+/* Slideshow navigator arrows. */
+
+a.rslides_nav {
+    padding: 0.25em;
+    line-height: 1;
+}
+
+a.rslides_nav.prev {
+        float: left;
+    }
+
+a.rslides_nav.next {
+        float: right;
+    }
+
+a.rslides_nav:hover {
+        text-decoration: none;
+    }
+
+/* Slideshow position indicator tabs. */
+
+.rslides_tabs {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1;
+}
+
+.rslides_tabs li {
+    margin: 0.375em 0.25em 0;
+    display: inline-block;
+}
+
+.rslides_tabs a {
+	text-indent: -9999px;
+	font-size:12px;
+	border-radius:50%;
+    display: block;
+    border: 1px solid;
+    border-color: #ccc;
+    background: #eee;
+    width: 1em;  // 12px
+    height: 1em; // 12px
+   }
+
+.rslides_tabs a:hover {
+            border-color: #000;
+        }
+
+/* Highlight the position indicator tab of currently active slide. */
+
+.rslides_here a {
+    background: #e3e3e3;
+}
+
+
+/*Misc-----------------------------------------------------*/
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height: 0;
+	clear:both;
+	visibility:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

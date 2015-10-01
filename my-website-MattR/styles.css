@@ -1,0 +1,134 @@
+body{
+	background:url(images/skulls.png);
+	font-size: 16px;
+	margin:0;
+	line-height: 1.4em;
+	font-family: "Lucida" Grande, sans-serif;
+}
+
+a{
+	color: blue;
+}
+
+a:hover {
+	color: red;
+}
+
+
+/* Layout
+------------------------------------------*/
+
+.sticky {
+	margin: 0 auto;
+	padding: .5em auto;
+	width:100%;
+	position:fixed;
+	background:url(images/skulls.png);
+	top:0;
+}
+
+header,
+.container,
+footer {
+	margin: 0 auto;
+	width:88%;
+	max-width: 960px;
+	padding-bottom: 10px;
+	box-shadow: 4px 5px 4px 5px rgba(0,0,0,.2);
+}
+
+.wrapper {
+	background: rgba(255,255,255,.5);
+	padding:1em 0;
+	text-align: center;
+}
+
+section {
+	padding-top:4em;
+}
+
+h1, h2{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-shadow:-2px -2px 5px rgba(0,0,0,0.6);
+}
+
+/*Navigation-----------------------------------------------------*/
+
+nav ul {
+    padding: 0px 50px 0 50px;
+    max-width: 468px;
+    margin: 0 auto;
+}
+
+nav ul li{
+	float: left;
+	margin-right: .5em;
+	list-style: none;
+}
+
+nav ul li a{
+	background: #C#F5F5FF;
+	padding: .1em .1em;
+	border-radius: 5px;
+	transition: all 1s ease-in-out;
+	box-shadow:-2px -2px 5px rgba(0,0,0,0.5);
+}
+
+nav ul li a:hover{
+	background: #cccccc;
+}
+
+
+/*Floats-----------------------------------------------------*/
+
+.align-right{
+	float:right;
+	padding: .5em 0 .5em .5em;
+}
+
+.align-left{
+	float:left;
+	padding: .5em .5em .5em 0;
+}
+
+.align-center{
+	margin: 1em auto;
+	display:block;
+}
+
+/*List-----------------------------------------------------*/
+
+.list--no-bullets{
+	padding: 0;
+	list-style: none;
+}
+
+.bullet{
+	height: 16px;
+	width:16px;
+	display: inline-block;
+	background: url(images/bullet.png);
+	margin: 0 0 -.1em 0;
+	
+
+}
+
+/*Misc-----------------------------------------------------*/
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height: 0;
+	clear:both;
+	visibility:hidden;
+}
+
+
+
+
+
+
+
+
+

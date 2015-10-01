@@ -1,0 +1,130 @@
+body{
+	background:url(images/skulls.png);
+	font-size: 16px;
+	margin:0;
+	line-height: 1.4em;
+	font-family: "Lucida" Grande, sans-serif;
+}
+
+a{
+	color: blue;
+}
+
+a:hover {
+	color: red;
+}
+
+/*Layout-----------------------------------------------------*/
+/*IMPORTANT---------------------------------------------------------------------*/
+
+header,
+.container,
+footer{
+	margin: 0 auto;
+	width: 88%;
+	max-width: 960px;
+}	
+	
+.wrapper{
+	background: rgba(255,255,255,0.6);
+	padding: 1em;
+
+}
+
+h1, h2{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-shadow:-2px -2px 5px rgba(0,0,0,0.5);
+}
+
+/*Navigation-----------------------------------------------------*/
+
+nav ul{
+	padding:0;
+}
+
+nav ul li{
+	float: left;
+	margin-right: .5em;
+	list-style: none;
+}
+
+nav ul li a{
+	background: #C#F5F5FF;
+	padding: .1em .1em;
+	border-radius: 5px;
+	transition: all 1s ease-in-out;
+	box-shadow:-2px -2px 5px rgba(0,0,0,0.5);
+}
+
+nav ul li a:hover{
+	background: #cccccc;
+}
+
+
+/*Floats-----------------------------------------------------*/
+
+.align-right{
+	float:right;
+	padding: .5em 0 .5em .5em;
+}
+
+.align-left{
+	float:left;
+	padding: .5em .5em .5em 0;
+}
+
+.align-center{
+	margin: 1em auto;
+	display:block;
+}
+
+/*List-----------------------------------------------------*/
+
+.list--no-bullets{
+	padding: 0;
+	list-style: none;
+}
+
+.bullet{
+	height: 16px;
+	width:16px;
+	display: inline-block;
+	background: url(images/bullet.png);
+	margin: 0 0 -.1em 0;
+	
+
+}
+
+/*Misc-----------------------------------------------------*/
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height: 0;
+	clear:both;
+	visibility:hidden;
+}
+
+ @media screen and (min-width:600px){  
+
+	main {
+		width:60%;
+		float: left;
+	}
+
+	.secondary {
+		width: 36%;
+		float: right;
+		border-radius: 5px;
+		padding: .5em;
+		
+	}
+]
+
+
+
+
+
+
+

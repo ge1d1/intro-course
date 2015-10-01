@@ -1,0 +1,209 @@
+/*
+
+Title: Stylesheet Template
+
+Author: Maurice van Cooten
+
+*/
+
+body {
+	background: #eee;
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin:0;
+}
+
+a {
+	color: crimson;
+}
+
+a:hover {
+	color: pink;
+}
+
+p {
+	color:#555;
+}
+
+/* Page structure
+------------------------------------------*/
+
+header,
+.container,
+footer {
+	margin: 0 auto;
+	width:88%;
+	max-width: 960px;
+}
+
+.wrapper {
+	padding:1em 0;
+	background: #fff;
+}
+
+/* Padding & Margins
+------------------------------------------*/
+
+.grid {
+	float:left;
+	padding:0;
+	width:100%;
+}
+
+.grid li {
+	margin:0 1em 1em 0;
+	padding:0;
+	list-style:none;
+	float:left;
+	background:#ccc;
+}
+
+.content {
+	background:pink;
+	height:160px;
+	width:160px;
+	padding:.1em 0 0 .1em;
+}
+
+.box-1 {
+	background:#ccc;
+	padding:12px;
+	border: 1px solid crimson;
+}
+
+.box-2 {
+	background:#ccc;
+	padding:12px 0;	
+	border: 1px solid crimson;
+}
+
+.box-3 {
+	background:#ccc;
+	padding:0;
+	border: 1px solid crimson;
+}
+
+.box-4 {
+	background:#ccc;
+	padding:0 12px;
+	border: 1px solid crimson;
+}
+
+.box-5 {
+	background:#ccc;
+	padding:0 12px 0;
+	border: 1px solid crimson;
+}
+
+.box-6 {
+	background:#ccc;
+	padding:0 12px 0 0;
+	border: 1px solid crimson;
+}
+
+.box-7 {
+	background:#ccc;
+	padding:0 0 0 12px;
+	border: 1px solid crimson;
+}
+
+.box-8 {
+	background:#ccc;
+	padding:0 0 12px;
+	border: 1px solid crimson;	
+}
+
+.box-9 {
+	background:#ccc;
+	padding:12px 0 0;
+	border: 1px solid crimson;
+}
+
+.box-10 {
+	background:#ccc;
+	padding:12px 0 0 0;
+	border: 1px solid crimson;
+}
+
+.box-11 {
+	background:#ccc;
+	padding:0 0 12px 0;
+	border: 1px solid crimson;
+}
+
+.box-12 {
+	background:#ccc;
+	margin:12px;
+	border: 1px solid crimson;
+}
+
+.box-13 {
+	background:#ccc;
+	margin:12px 0;
+	border: 1px solid crimson;	
+}
+
+.box-14 {
+	background:#ccc;
+	margin:0;
+	border: 1px solid crimson;
+}
+
+.box-15 {
+	background:#ccc;
+	margin:0 12px;
+	border: 1px solid crimson;
+}
+
+.box-16 {
+	background:#ccc;
+	margin:0 12px 0;
+	border: 1px solid crimson;
+}
+
+.box-17 {
+	background:#ccc;
+	margin:0 12px 0 0;
+	border: 1px solid crimson;
+}
+
+.box-18 {
+	background:#ccc;
+	margin:0 0 0 12px;
+	border: 1px solid crimson;
+}
+
+.box-19 {
+	background:#ccc;
+	margin:0 0 12px;
+	border: 1px solid crimson;	
+}
+
+.box-20 {
+	background:#ccc;
+	margin:12px 0 0;
+	border: 1px solid crimson;
+}
+
+.box-21 {
+	background:#ccc;
+	margin:12px 0 0 0;
+	border: 1px solid crimson;
+}
+
+.box-22 {
+	background:#ccc;
+	margin:0 0 12px 0;
+	border: 1px solid crimson;
+}
+
+/* Misc.
+------------------------------------------*/
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height: 0;
+	clear:both;
+	visibility:hidden;
+}

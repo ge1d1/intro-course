@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8">	
+		<title>Layout</title>
+		<meta name="robots" content="noindex, nofollow, noodp, noydir">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--[if lt IE 9]>
+    		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="styles.css">
+		
+	</head>
+
+	<body>
+
+		<header>
+
+			<h1>Site Name</h1>
+
+		</header> 
+
+		<div class="wrapper">
+
+			<div class="container">
+
+				<h2>Heading</h2>
+
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+				<h2>Heading</h2>
+
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam sit amet elit vitae arcu interdum ullamcorper. Nullam ultrices, nisi quis scelerisque convallis, augue neque tempor enim, et mattis justo nibh eu elit.</p>
+
+				<p>Quisque ultrices gravida pede. Mauris accumsan vulputate tellus. Phasellus condimentum bibendum dolor. Mauris sed ipsum. Phasellus in diam. Nam sapien ligula, consectetuer id, hendrerit in, cursus sed, leo. Nam tincidunt rhoncus urna. Aliquam id massa ut nibh bibendum imperdiet. Curabitur neque mauris, porta vel, lacinia quis, placerat ultrices, orci.</p>
+
+			<ul class="gallery clearfix">
+				<li>
+					<div class="item">
+						<a href="#">
+							<img src="images/cthulhu_actual.png" alt="cthulhu">
+							<span>Gallery One</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="item">
+						<a href="#">
+							<img src="images/cthulhu_actual.png" alt="cthulhu">
+							<span>Gallery Two</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="item">
+						<a href="#">
+							<img src="images/cthulhu_actual.png" alt="cthulhu">
+							<span>Gallery Three</span>
+						</a>
+					</div>
+				</li>
+
+				<a class="scale" href="#"><img src="images/cthulhu_actual.png" alt="cthulhu"></a>
+
+				<div class="rslides-container">
+
+					<ul class="rslides">
+
+						<li><img src="images/cthulhu1_actual.jpg" alt="cthulhu1"></li>
+
+						<li><img src="images/cthulhu2_actual.jpg" alt="cthulhu2"></li>
+
+						<li><img src="images/cthulhu3_actual.jpg" alt="cthulhu3"></li>
+
+						<li><img src="images/cthulhu4_actual.jpg" alt="cthulhu4"></li>
+
+					</ul>
+
+				</div><!-- Responsive slides  -->
+
+				<img class="hue-rotate" src="images/cthulhu1_actual.jpg" alt="cthulhu1">
+
+
+			</div> <!-- .container-->
+
+		</div> <!-- .wrapper-->
+
+		<footer>
+
+			<small>Powered by <a href="http://github.com">Github</small>
+
+		</footer> 
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+		<script src="responsiveslides.js"></script>
+
+		<script>
+					
+			$(function() {
+	    		$(".rslides").responsiveSlides({
+	                auto: true,             // Boolean: Animate automatically, true or false
+	                speed: 1200,            // Integer: Speed of the transition, in milliseconds
+	                timeout: 4800,          // Integer: Time between slide transitions, in milliseconds
+	                pager: true,            // Boolean: Show pager, true or false
+	                nav: true,              // Boolean: Show navigation, true or false
+	                random: false,          // Boolean: Randomize the order of the slides, true or false
+	                pause: false,           // Boolean: Pause on hover, true or false
+	                pauseControls: false,   // Boolean: Pause when hovering controls, true or false
+	                prevText: '&#8592;',    // String: Text for the "previous" button
+	                nextText: '&#8594;',    // String: Text for the "next" button
+	                maxwidth: '',           // Integer: Max-width of the slideshow, in pixels
+	                navContainer: '',       // Selector: Where auto generated controls should be appended to, default is after the <ul>
+	                manualControls: '',     // Selector: Declare custom pager navigation
+	                namespace: 'rslides',   // String: change the default namespace used
+	                before: function () {}, // Function: Before callback
+	                after: function () {}   // Function: After callback
+	        	});
+	  		});
+
+		</script>
+
+	</body>
+
+</html>
